@@ -1,0 +1,13 @@
+@import url(head.css);
+@import url(banner.css);
+@import url(carrosel.css);
+
+.carrosel.titulo{
+    color:orange;
+    background-color: white;
+     text-align: center;
+    text-transform: uppercase;
+    font-size:18px ;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
