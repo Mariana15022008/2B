@@ -18,3 +18,13 @@ function criarCartao(categoria, pergunta, resposta){
  </div>`
  container.appendChild(Cartao)
 }
+
+let respostaEstaVisivel = false
+container.appendChild(Cartao)
+
+function viraCartao(){
+  respostaEstaVisivel = !respostaEstaVisivel
+  Cartao.ClassList.toogle('active', respostaEstaVisivel)
+}
+
+Cartao.addEventListener('click', viraCartao)
